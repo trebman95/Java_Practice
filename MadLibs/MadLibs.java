@@ -22,6 +22,9 @@ public class MadLibs {
         String noun4 = "indian";
         String noun5 = "ice cream";
         String noun6 = "monkey";
+        double lilDecimal = 81.7;
+        char initial = 'T';
+        boolean love = true;
 
         // The template for the story
         String story = "This morning " + name1 + " woke up feeling " + adjective1 + ". 'It is going to be a "
@@ -29,7 +32,10 @@ public class MadLibs {
                 + " in stores. They began to " + verb1 + " to the rhythm of the " + noun3 + ", which made all the "
                 + noun4 + "s very " + adjective3 + ". Concerned, " + name1 + " texted " + name2 + ", who flew " + name1
                 + " to " + place1 + " and dropped " + name1 + " in a puddle of frozen " + noun5 + ". " + name1
-                + " woke up in the year " + number + ", in a world where " + noun6 + "s ruled the world.";
+                + " woke up in the year " + number + ", in a world where " + noun6
+                + "s ruled the world. With a population of " + lilDecimal
+                + "billion people. In the end, we know our love is " + love + "Our son will be initial with a "
+                + initial;
 
         System.out.println(story);
     }
