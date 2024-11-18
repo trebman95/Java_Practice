@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculate",
+            "request": "launch",
+            "mainClass": "Calculate",
+            "projectName": "Java_Practice_1d725869"
+        },
+        {
+            "type": "java",
             "name": "Tree",
             "request": "launch",
             "mainClass": "Tree",
