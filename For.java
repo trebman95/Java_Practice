@@ -6,6 +6,7 @@ public class For {
         anotherOne(new String[] {});
         nested(new String[] {});
         forEach(new String[] {});
+        multiple(new String[] {});
     }
 
     public static void anotherOne(String[] args) {
@@ -27,6 +28,14 @@ public class For {
         String[] cars = { "Volvo", "BMW", "Mercedes", "Toyota" };
         for (String i : cars) {
             System.out.println(i);
+        }
+    }
+
+    public static void multiple(String[] args) {
+        int number = 2;
+        // Print the multiplication table for the number 2
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
         }
     }
 }

@@ -21,6 +21,7 @@ public class Switch {
 
         // Calling the second method to print out
         defaultAction(new String[] {});
+        cont(new String[] {});
     }
 
     public static void defaultAction(String[] args) {
@@ -37,4 +38,14 @@ public class Switch {
                 break;
         }
     }
+
+    public static void cont(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+
 }
