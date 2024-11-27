@@ -1,4 +1,3 @@
-
 public class MadLibs {
     /*
      * This program generates a mad libbed
@@ -38,4 +37,5 @@ public class MadLibs {
 
         System.out.println(story);
     }
+
 }
