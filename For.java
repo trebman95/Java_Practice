@@ -5,6 +5,7 @@ public class For {
         }
         anotherOne(new String[] {});
         nested(new String[] {});
+        forEach(new String[] {});
     }
 
     public static void anotherOne(String[] args) {
@@ -19,6 +20,13 @@ public class For {
             for (int j = 1; j <= 3; j++) {
                 System.out.println("Inner: " + j);
             }
+        }
+    }
+
+    public static void forEach(String[] args) {
+        String[] cars = { "Volvo", "BMW", "Mercedes", "Toyota" };
+        for (String i : cars) {
+            System.out.println(i);
         }
     }
 }
