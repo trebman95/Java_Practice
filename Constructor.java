@@ -1,12 +1,14 @@
 public class Constructor {
-    int x;
+    int modelYear;
+    String modelName;
 
-    public Constructor() {
-        x = 5;
+    public Constructor(int year, String name) {
+        modelYear = year;
+        modelName = name;
     }
 
     public static void main(String[] args) {
-        Constructor myObj = new Constructor();
-        System.out.println(myObj.x);
+        Constructor myObj = new Constructor(1969, "Mustang");
+        System.out.println(myObj.modelYear + " " + myObj.modelName);
     }
 }
